@@ -1,0 +1,65 @@
+header {
+  background-color: pink;
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+img{
+  width: 20%;
+}
+.card{
+  background: #00ffbf;
+  width: 50%;
+  border-radius: 2px 2px 2px;
+  box-shadow: 2px 2px 2px black;
+  text-align: center;
+  padding: 2%;
+  margin: 1%;
+}
+.mainDiv{
+  display: flex;
+  justify-content: space-between;
+}
+.main{
+  display: flex;
+}
+.leftDiv
+{
+  width: 30%;
+  background-color: #ddd;
+  border: 3px solid #000000;
+  text-align: center;
+}
+.rightDiv
+{
+  margin: 1%;
+  padding: 1%;
+  background-color: #dda;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 2px black;
+}
+/*mobile view*/
+@media screen and (min-width:320px) and (max-width:480px) {
+  .mainDiv,.main{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .card,.leftDiv,.rightDiv{
+    width: 90%;
+  }
+
+}
+/*tab view*/
+@media screen and (min-width:481px) and (max-width:820px) {
+  .mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card{
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
