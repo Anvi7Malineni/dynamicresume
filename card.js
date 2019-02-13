@@ -25,7 +25,7 @@
       card.classList.add("card");
       mainDiv.appendChild(card);
       var image=document.createElement("img");
-      image.src="images/profile.png";
+      image.src="images/profile1.png";
       card.appendChild(image);
       var h1=document.createElement("h1");
       h1.textContent=Pro[i].name;
@@ -39,6 +39,10 @@
       var h5=document.createElement("h5");
       h5.textContent=Pro[i].email;
       card.appendChild(h5);
+      var a=document.createElement("a");
+      a.textContent="View Resume";
+      a.href="resume.html";
+      card.appendChild(a);
     }
 
     }

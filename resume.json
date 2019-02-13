@@ -1,0 +1,37 @@
+{
+ "profile":{
+   "name":"Anvi",
+   "image":"images/profile1.png",
+   "Branch":"CSE",
+   "mbnum":"7894561203",
+   "email":"anvi12@gmail.com",
+   "CarrerObject":"To enhance my educational and professional skills in a stable and dynamic workplace."
+ },
+ "Education":[
+   {
+     "Degree":"B-Tech",
+     "College":"QIS",
+     "Branch":"CSE",
+     "Marks":"91%",
+     "EndDate":"08/04/2020"
+   },
+   {
+     "Degree":"Intermediate",
+     "College":"BIIT Junior College",
+     "Branch":"MPC",
+     "Marks":"92%",
+     "EndDate":"08/04/2016"
+   },
+   {
+     "Degree":"SSC",
+     "College":"Bhashyam",
+     "Branch":"EM",
+     "Marks":"98%",
+     "EndDate":"08/04/2014"
+   }
+ ],
+ "Technicalskills":{
+   "os":"Windows 7,Windows 8.1,XP",
+   "ps":"C++,HTML,CSS,JavaScript,JAVA"
+ }
+}
